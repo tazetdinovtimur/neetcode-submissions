@@ -26,10 +26,6 @@ class Solution {
             return Collections.emptyList();
         }
 
-        if (str == null || str.isEmpty()) {
-            List.of("");
-        }
-
         var strs = str.split("\\|\\|SEP\\|\\|", -1);
 
         return Arrays.asList(strs);
